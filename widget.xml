@@ -2,7 +2,7 @@
 <Module>
   <ModulePrefs title="Map" description="Shows the location of the video"
     author="Aarij" author_email="siddiqui@dbis.rwth-aachen.de"
-    width="400" height="200">
+    width="500" height="170">
 
     <Require feature="opensocial-0.8"></Require>
     <Require feature="openapp"></Require>
@@ -70,7 +70,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	<!-- Bootstrap stylesheet import -->
 	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 	<!-- own style information -->
-	<link rel="stylesheet" href="http://localhost:8085/Vaptor-Frontend-Map/css/style.css">
+	<link rel="stylesheet" href="http://eiche.informatik.rwth-aachen.de/siddiqui/widgets/Vaptor-Frontend-Map/css/style.css">
 
 	
 	
@@ -84,17 +84,17 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	<!-- additional widget specific imports (put your own imports here as well) -->
 
 	<!-- import the client library -->
-	<script type="text/javascript" src="http://localhost:8085/Vaptor-Frontend-Map/js/lib/las2peerWidgetLibrary.js"></script>
+	<script type="text/javascript" src="http://eiche.informatik.rwth-aachen.de/siddiqui/widgets/Vaptor-Frontend-Map/js/lib/las2peerWidgetLibrary.js"></script>
 	<!-- import application script -->
 	
 	
 	
-	<!--<link rel="stylesheet" type="text/css" href="http://localhost:8085/Vaptor-Frontend-Map/css/github.min.css">-->
-	<!--<link rel="stylesheet" type="text/css" href="http://localhost:8085/Vaptor-Frontend-Map/css/custom.css">-->
+	<!--<link rel="stylesheet" type="text/css" href="http://eiche.informatik.rwth-aachen.de/siddiqui/widgets/Vaptor-Frontend-Map/css/github.min.css">-->
+	<!--<link rel="stylesheet" type="text/css" href="http://eiche.informatik.rwth-aachen.de/siddiqui/widgets/Vaptor-Frontend-Map/css/custom.css">-->
 	
 	
 	
-	<script type="text/javascript" src="http://localhost:8085/Vaptor-Frontend-Map/js/applicationScript.js"></script>
+	<script type="text/javascript" src="http://eiche.informatik.rwth-aachen.de/siddiqui/widgets/Vaptor-Frontend-Map/js/applicationScript.js"></script>
   
 </head>
 <body>
@@ -102,8 +102,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 	
 	<!-- inter widget communication library import -->
 	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-	<script type="text/javascript" src="http://localhost:8085/Vaptor-Frontend-Map/js/map2.js"></script>
-	<script type="text/javascript" src="http://localhost:8085/Vaptor-Frontend-Map/js/lib/iwc.js"></script>
+	<script type="text/javascript" src="http://eiche.informatik.rwth-aachen.de/siddiqui/widgets/Vaptor-Frontend-Map/js/map2.js"></script>
+	<script type="text/javascript" src="http://eiche.informatik.rwth-aachen.de/siddiqui/widgets/Vaptor-Frontend-Map/js/lib/iwc.js"></script>
 	
 
 	<!-- container for actual page content -->
